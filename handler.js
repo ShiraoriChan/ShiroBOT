@@ -399,7 +399,7 @@ module.exports = {
                 .setGuildIcon(ppgc)
                 .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
-                .setBackground("https://telegra.ph/file/9e27ba209ed60be87087e.jpg")
+                .setBackground("https://telegra.ph/file/256d2fe7701f73c5e8bf6.jpg")
                 .toAttachment()
 
               let lea = await new knights.Goodbye()
@@ -408,10 +408,10 @@ module.exports = {
                 .setGuildIcon(ppgc)
                 .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
-                .setBackground("https://telegra.ph/file/9e27ba209ed60be87087e.jpg")
+                .setBackground("https://telegra.ph/file/256d2fe7701f73c5e8bf6.jpg")
                 .toAttachment()
 
-              this.sendButtonLoc(jid, action === 'add' ? wel.toBuffer() : lea.toBuffer(), text, action === 'add' ? '●○●○●○●○' : '●○●○●○●○', action === 'add' ? 'Selamat Bergabung' : 'Sampai Jumpa Kembali',action === 'add' ? 'Selamat Bergabung' : 'Sampai Jumpa Kembali', null, {
+              this.sendButtonLoc(jid, action === 'add' ? wel.toBuffer() : lea.toBuffer(), text, action === 'add' ? '●○●○●○●○' : '●○●○●○●○', action === 'add' ? 'Selamat Bergabung' : 'Sayonara',action === 'add' ? 'Selamat Bergabung' : 'Sampai Jumpa Kembali', null, {
                 contextInfo: {
                   mentionedJid: [user]
                 }
