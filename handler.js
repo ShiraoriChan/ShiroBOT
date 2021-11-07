@@ -399,7 +399,7 @@ module.exports = {
                 .setGuildIcon(ppgc)
                 .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
-                .setBackground("https://telegra.ph/file/562d34d6617952eb3566e.jpg")
+                .setBackground("https://telegra.ph/file/c28d5f0c455675f71cb25.jpg")
                 .toAttachment()
 
               let lea = await new knights.Goodbye()
@@ -408,7 +408,7 @@ module.exports = {
                 .setGuildIcon(ppgc)
                 .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
-                .setBackground("https://telegra.ph/file/562d34d6617952eb3566e.jpg")
+                .setBackground("https://telegra.ph/file/c28d5f0c455675f71cb25.jpg")
                 .toAttachment()
 
               this.sendButtonLoc(jid, action === 'add' ? wel.toBuffer() : lea.toBuffer(), text, action === 'add' ? '●○●○●○●○' : '●○●○●○●○', action === 'add' ? 'Selamat Bergabung' : 'Sayonara',action === 'add' ? 'Selamat Bergabung' : 'Sampai Jumpa Kembali', null, {
