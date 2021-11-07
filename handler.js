@@ -399,7 +399,7 @@ module.exports = {
                 .setGuildIcon(ppgc)
                 .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
-                .setBackground("https://telegra.ph/file/47430be74b0aec1dfac74.jpg")
+                .setBackground("https://telegra.ph/file/8ad987e2a120714cbae21.jpg")
                 .toAttachment()
 
               let lea = await new knights.Goodbye()
